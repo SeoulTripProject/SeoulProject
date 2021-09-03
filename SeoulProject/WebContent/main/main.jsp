@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-  <h1>서울여행</h1>
+  <h1>서울여행 프로젝트</h1>
 </body>
 </html>
