@@ -8,5 +8,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Servers/Tomcat v8.5 Server at localhost.server"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
