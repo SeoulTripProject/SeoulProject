@@ -16,7 +16,7 @@
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                        <a href="index.html"><img src="../assets/img/logo/logo2_footer.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -52,8 +52,8 @@
                                 <div class="footer-tittle">
                                     <h4>Download App</h4>
                                     <ul>
-                                        <li class="app-log"><a href="#"><img src="assets/img/gallery/app-logo.png" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/img/gallery/app-logo2.png" alt=""></a></li>
+                                        <li class="app-log"><a href="#"><img src="../assets/img/gallery/app-logo.png" alt=""></a></li>
+                                        <li><a href="#"><img src="../assets/img/gallery/app-logo2.png" alt=""></a></li>
                                     </ul>
                                 </div>
                             </div>
