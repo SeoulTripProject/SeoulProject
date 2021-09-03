@@ -61,7 +61,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location1.png" alt="">
+                                <img src="../assets/img/gallery/location1.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>New York</p>
@@ -72,7 +72,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location2.png" alt="">
+                                <img src="../assets/img/gallery/location2.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Paris</p>
@@ -83,7 +83,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location3.png" alt="">
+                                <img src="../assets/img/gallery/location3.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Rome</p>
@@ -94,7 +94,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location4.png" alt="">
+                                <img src="../assets/img/gallery/location4.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Italy</p>
@@ -105,7 +105,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location5.png" alt="">
+                                <img src="../assets/img/gallery/location5.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Nepal</p>
@@ -116,7 +116,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location6.png" alt="">
+                                <img src="../assets/img/gallery/location6.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>indonesia</p>
@@ -135,7 +135,7 @@
         </div>
         <!-- Popular Locations End -->
         <!-- Services Area Start -->
-        <div class="services-area pt-150 pb-150 section-bg" data-background="assets/img/gallery/section_bg02.jpg">
+        <div class="services-area pt-150 pb-150 section-bg" data-background="../assets/img/gallery/section_bg02.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -157,7 +157,7 @@
                                 <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
                             </div>
                             <!-- Shpape -->
-                            <img class="shape1 d-none d-lg-block" src="assets/img/icon/serices1.png" alt="">
+                            <img class="shape1 d-none d-lg-block" src="../assets/img/icon/serices1.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -169,7 +169,7 @@
                                 <h5><a href="#">2. what you want</a></h5>
                                 <p>incidid labore lore magna aliqua uisipsum suspendis loris.</p>
                             </div>
-                            <img class="shape2 d-none d-lg-block" src="assets/img/icon/serices2.png" alt="">
+                            <img class="shape2 d-none d-lg-block" src="../assets/img/icon/serices2.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -318,7 +318,7 @@
                                     <!-- founder -->
                                     <div class="testimonial-founder d-flex align-items-center justify-content-center mb-30">
                                         <div class="founder-img">
-                                            <img src="assets/img/testmonial/Homepage_testi.png" alt="">
+                                            <img src="../assets/img/testmonial/Homepage_testi.png" alt="">
                                         </div>
                                         <div class="founder-text">
                                             <span>Oliva jems</span>
@@ -337,7 +337,7 @@
                                     <!-- founder -->
                                     <div class="testimonial-founder d-flex align-items-center justify-content-center mb-30">
                                         <div class="founder-img">
-                                            <img src="assets/img/testmonial/Homepage_testi.png" alt="">
+                                            <img src="../assets/img/testmonial/Homepage_testi.png" alt="">
                                         </div>
                                         <div class="founder-text">
                                             <span>Oliva jems</span>
@@ -353,7 +353,7 @@
         </div>
         <!-- Testimonial End -->
         <!-- Subscribe Area Start -->
-        <div class="subscribe-area section-bg pt-150 pb-150" data-background="assets/img/gallery/section_bg04.jpg">
+        <div class="subscribe-area section-bg pt-150 pb-150" data-background="../assets/img/gallery/section_bg04.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8">
@@ -392,7 +392,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/home_blog1.png" alt="">
+                                <img src="../assets/img/gallery/home_blog1.png" alt="">
                             </div>
                             <div class="team-caption">
                                 <span>HEALTH & CARE</span>
@@ -405,7 +405,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/home_blog2.png" alt="">
+                                <img src="../assets/img/gallery/home_blog2.png" alt="">
                             </div>
                             <div class="team-caption">
                                 <span>HEALTH & CARE</span>
@@ -418,7 +418,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/home_blog3.png" alt="">
+                                <img src="../assets/img/gallery/home_blog3.png" alt="">
                             </div>
                             <div class="team-caption">
                                 <span>HEALTH & CARE</span>
