@@ -68,24 +68,6 @@ public class MainClass {
 					    	   System.out.println(p+"."+st.nextToken());
 					    	   p++;
 					       }
-//					       String s2="";
-//					       Elements etc2=doc2.select("table.info tr th");
-//					       for(int b=0; b<etc2.size(); b++)
-//					       {
-//					    	   String s1=etc2.get(b).text();
-//					    	   try
-//					    	   {
-//					    		   if(s1.equals("웹 사이트"))
-//					    		   {
-//					    			   Element info=doc2.selectFirst("table.info tr th a");
-//					    			   System.out.println("웹 사이트:"+info.attr("href"));
-//					    		   }
-//					    	   }catch(Exception ex)
-//					    	   {
-//					    		   s2="no";
-//					    		   System.out.println("웹사이트:"+s2);
-//					    	   }
-//					       }
 					       
 					       
 					       String addr="no",phone="no",tp="no",pr="no",pa="no",ti="no", mu="no";
@@ -201,38 +183,7 @@ public class MainClass {
 					       fvo.setGood(Integer.parseInt(good));
 					       fvo.setSoso(Integer.parseInt(soso));
 					       fvo.setBad(Integer.parseInt(bad));
-						/*
-						 * <ul class="Restaurant__TagList only-mobile"> <li class="Restaurant__TagItem">
-						 * <a class="Restaurant__TagLink" href="/search/이자카야"
-						 * onclick="trackEvent('CLICK_RELATED_TAG', {&quot;restaurant_key&quot;:&quot;iMRRP69qtkeO&quot;,&quot;keyword&quot;:&quot;이자카야&quot;})"
-						 * >#이자카야</a> </li> <li class="Restaurant__TagItem"> <a
-						 * class="Restaurant__TagLink" href="/search/고등어"
-						 * onclick="trackEvent('CLICK_RELATED_TAG', {&quot;restaurant_key&quot;:&quot;iMRRP69qtkeO&quot;,&quot;keyword&quot;:&quot;고등어&quot;})"
-						 * >#고등어</a> </li>
-						 */
-					       // Elements link=doc.select("div.top_list_slide ul.list-toplist-slider a");
-					       // System.out.println(link.get(i).attr("href"));
-					       /*
-					        *  Elements poster=doc2.select("figure.restaurant-photos-item img.center-croping");
-					       String image="";
-					       for(int o=0;o<poster.size();o++)
-					       {
-					    	   image+=poster.get(o).attr("src")+"^"; // , 
-					       }
-					       image=image.substring(0,image.lastIndexOf("^"));// 마지막 ^를 제거  => 구분문자
-					       image=image.replace("&", "#"); // 오라클에는 &를 #으로 바꾸지만 다시 출력할때는 반대로 한다
-					       StringTokenizer st=new StringTokenizer(image,"^");
-					       int p=1;
-					       
-					       while(st.hasMoreTokens())
-					       {
-					    	   System.out.println(p+"."+st.nextToken());
-					    	   p++;
-					       }
-					        */
-//					       String ssss="";
-//					       try 
-//					       {
+						
 						       Elements rtag=doc2.select("ul.Restaurant__TagList a.Restaurant__TagLink");
 						       String tag="";
 						       for(int l=0; l<rtag.size(); l++)
@@ -247,12 +198,6 @@ public class MainClass {
 						    	   System.out.println(q+"."+stt.nextToken());
 						    	   q++;
 						       }
-//						   }catch(Exception ex)
-//					       {
-//					    	   ssss="no";
-//					       }
-//					       fvo.setRtag(tag);
-					       
 					       
 					       // 데이터베이스에 저장 
 					       dao.foodInsert(fvo);
@@ -320,25 +265,6 @@ public class MainClass {
 					    	   System.out.println(p+"."+st.nextToken());
 					    	   p++;
 					       }
-//					       String s2="";
-//					       Elements etc2=doc2.select("table.info tr th");
-//					       for(int b=0; b<etc2.size(); b++)
-//					       {
-//					    	   String s1=etc2.get(b).text();
-//					    	   try
-//					    	   {
-//					    		   if(s1.equals("웹 사이트"))
-//					    		   {
-//					    			   Element info=doc2.selectFirst("table.info tr th a");
-//					    			   System.out.println("웹 사이트:"+info.attr("href"));
-//					    		   }
-//					    	   }catch(Exception ex)
-//					    	   {
-//					    		   s2="no";
-//					    		   System.out.println("웹사이트:"+s2);
-//					    	   }
-//					       }
-					       
 					       
 					       String addr="no",phone="no",tp="no",pr="no",pa="no",ti="no", mu="no";
 					       Elements etc=doc2.select("table.info tr th");
@@ -453,38 +379,7 @@ public class MainClass {
 					       fvo.setGood(Integer.parseInt(good));
 					       fvo.setSoso(Integer.parseInt(soso));
 					       fvo.setBad(Integer.parseInt(bad));
-						/*
-						 * <ul class="Restaurant__TagList only-mobile"> <li class="Restaurant__TagItem">
-						 * <a class="Restaurant__TagLink" href="/search/이자카야"
-						 * onclick="trackEvent('CLICK_RELATED_TAG', {&quot;restaurant_key&quot;:&quot;iMRRP69qtkeO&quot;,&quot;keyword&quot;:&quot;이자카야&quot;})"
-						 * >#이자카야</a> </li> <li class="Restaurant__TagItem"> <a
-						 * class="Restaurant__TagLink" href="/search/고등어"
-						 * onclick="trackEvent('CLICK_RELATED_TAG', {&quot;restaurant_key&quot;:&quot;iMRRP69qtkeO&quot;,&quot;keyword&quot;:&quot;고등어&quot;})"
-						 * >#고등어</a> </li>
-						 */
-					       // Elements link=doc.select("div.top_list_slide ul.list-toplist-slider a");
-					       // System.out.println(link.get(i).attr("href"));
-					       /*
-					        *  Elements poster=doc2.select("figure.restaurant-photos-item img.center-croping");
-					       String image="";
-					       for(int o=0;o<poster.size();o++)
-					       {
-					    	   image+=poster.get(o).attr("src")+"^"; // , 
-					       }
-					       image=image.substring(0,image.lastIndexOf("^"));// 마지막 ^를 제거  => 구분문자
-					       image=image.replace("&", "#"); // 오라클에는 &를 #으로 바꾸지만 다시 출력할때는 반대로 한다
-					       StringTokenizer st=new StringTokenizer(image,"^");
-					       int p=1;
 					       
-					       while(st.hasMoreTokens())
-					       {
-					    	   System.out.println(p+"."+st.nextToken());
-					    	   p++;
-					       }
-					        */
-//					       String ssss="";
-//					       try 
-//					       {
 						       Elements rtag=doc2.select("ul.Restaurant__TagList a.Restaurant__TagLink");
 						       String tag="";
 						       for(int l=0; l<rtag.size(); l++)
@@ -499,10 +394,6 @@ public class MainClass {
 						    	   System.out.println(q+"."+stt.nextToken());
 						    	   q++;
 						       }
-//						   }catch(Exception ex)
-//					       {
-//					    	   ssss="no";
-//					       }
 					       fvo.setRtag(tag);
 					       
 					       // 데이터베이스에 저장 
