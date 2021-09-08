@@ -29,6 +29,7 @@
                                             <li><a href="listing.jsp">Event</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">Accomodation</a>
