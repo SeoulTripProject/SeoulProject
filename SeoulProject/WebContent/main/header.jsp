@@ -28,13 +28,18 @@
                                             <li><a href="catagori.html">Nature</a></li>
                                             <li><a href="listing.jsp">Culture</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog.html">Exhibition</a></li>
+                                                    <li><a href="blog.html">Play</a></li>
                                                 </ul>
                                             </li>
+<<<<<<< HEAD
+                                            <li><a href="#">Accommodation</a>
+=======
                                             <li><a href="#">Stay</a>
+>>>>>>> branch 'master' of https://github.com/SeoulTripProject/SeoulProject.git
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog.html">Hotel</a></li>
+                                                    <li><a href="blog.html">GuestHouse</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">Restaurants</a>
@@ -44,12 +49,16 @@
                                             </li>
                                             <li><a href="#">Board</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog.html">Notice</a></li>
+                                                    <li><a href="blog.html">FreeBoard</a></li>
+                                                    <li><a href="blog.html">Weather</a></li>
+                                                    <li><a href="blog.html">Q&A</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">My Page</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog.html">Unregister</a></li>
+                                                    <li><a href="blog.html">WishList</a></li>
                                                 </ul>
                                             </li>
                                             <li class="login"><a href="#">
