@@ -25,8 +25,8 @@
                                         <ul id="navigation">                                                                                                                                     
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="about.html">Attractions</a></li>
-                                            <li><a href="catagori.html">Nature SightSeeing</a></li>
-                                            <li><a href="listing.jsp">Event</a>
+                                            <li><a href="catagori.html">Nature</a></li>
+                                            <li><a href="listing.jsp">Culture</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="blog.html">Blog</a></li>
