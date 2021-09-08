@@ -38,15 +38,15 @@
         </div>
     </div>
 
-    <header>
+
       <%@ include file="../main/header.jsp" %>
-    </header>
-    <main>
+
+
 	  <jsp:include page="${main_jsp }"></jsp:include>
-    </main>
-    <footer>
+
+
       <%@ include file="../main/footer.jsp" %>
-    </footer>
+
     <!-- Scroll Up -->
     <div id="back-top" >
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
