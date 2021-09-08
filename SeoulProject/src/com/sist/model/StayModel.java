@@ -8,7 +8,7 @@ import com.sist.controller.RequestMapping;
 
 @Controller
 public class StayModel {
-	@RequestMapping("stay/stay.do")
+	@RequestMapping("stay/stay_main.do")
 	public String main_main(HttpServletRequest request,HttpServletResponse response)
 	{
 		
