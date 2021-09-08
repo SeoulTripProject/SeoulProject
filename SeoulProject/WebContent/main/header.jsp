@@ -23,7 +23,6 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">                                                                                                                                     
-                                            <li><a href="../main/main.do">Home</a></li>
                                             <li><a href="about.html">Attractions</a></li>
                                             <li><a href="catagori.html">Nature</a></li>
                                             <li><a href="listing.jsp">Culture</a>
@@ -31,12 +30,7 @@
                                                     <li><a href="blog.html">Exhibition</a></li>
                                                     <li><a href="blog.html">Play</a></li>
                                                 </ul>
-                                            </li>
-<<<<<<< HEAD
-                                            <li><a href="#">Accommodation</a>
-=======
-                                            <li><a href="#">Stay</a>
->>>>>>> branch 'master' of https://github.com/SeoulTripProject/SeoulProject.git
+                                            </li><li><a href="#">Stay</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Hotel</a></li>
                                                     <li><a href="blog.html">GuestHouse</a></li>
