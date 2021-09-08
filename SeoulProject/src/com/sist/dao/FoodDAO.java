@@ -1,33 +1,36 @@
 package com.sist.dao;
 import java.util.*;
 import java.sql.*;
+import javax.sql.*;
+
+import com.sist.vo.FoodVO;
+
+import javax.naming.*;
 public class FoodDAO {
 	private Connection conn;
 	private PreparedStatement ps;
-	private final String URL="jdbc:oracle:thin:@211.238.142.211:1521:XE";
 	private static FoodDAO dao;
-	
-	public FoodDAO()
-	{
-		try
-		{
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-		}catch(Exception ex) {}
-	}
 	
 	public void getConnection()
 	{
 		try
 		{
-			conn=DriverManager.getConnection(URL,"hr","happy");
-		}catch(Exception ex) {}
+			Context init=new InitialContext(); // 저장된 위치에 접근
+			Context c=(Context)init.lookup("java://comp//env");
+			DataSource ds=(DataSource)c.lookup("jdbc/oracle");
+			conn=ds.getConnection();
+		}catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
 	}
+	
 	public void disConnection()
 	{
 		try
 		{
-			if(ps!=null) ps.close();
-			if(conn!=null) conn.close();
+			if(ps==null) ps.close();
+			if(conn==null) conn.close();
 		}catch(Exception ex) {}
 	}
 	
