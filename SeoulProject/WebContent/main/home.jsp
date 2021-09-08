@@ -453,11 +453,10 @@
         </div>
         <!-- Blog Ara End -->
 
-<<<<<<< HEAD
+
     </main>
 
 </body>
-=======
 <!-- JS here -->
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="../assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -491,5 +490,4 @@
         <script src="../assets/js/plugins.js"></script>
         <script src="../assets/js/main.js"></script>
     </body>
->>>>>>> branch 'master' of https://github.com/SeoulTripProject/SeoulProject.git
 </html>
