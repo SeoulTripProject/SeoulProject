@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-    <!-- Preloader Start -->
+
     <header>
       <%@ include file="../main/header.jsp" %>
     </header>
