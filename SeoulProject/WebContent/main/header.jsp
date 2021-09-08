@@ -15,7 +15,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2 col-md-2">
                                 <div class="logo">
-                                  <a href="index.html"><img src="../assets/img/logo/logo.png" alt=""></a>
+                                  <a href="../main/main.do"><img src="../assets/img/logo/logo.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-11 col-lg-11 col-md-8">
@@ -23,7 +23,7 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">                                                                                                                                     
-                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="../main/main.do">Home</a></li>
                                             <li><a href="about.html">Attractions</a></li>
                                             <li><a href="catagori.html">Nature</a></li>
                                             <li><a href="listing.jsp">Culture</a>
@@ -37,7 +37,11 @@
                                                     <li><a href="blog.html">Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="listing.jsp">Restaurants</a></li>
+                                            <li><a href="#">Restaurants</a>
+                                                <ul class="submenu">
+                                                    <li><a href="../food/food_main.do">Restaurant List</a></li>
+                                                </ul>
+                                            </li>
                                             <li><a href="#">Board</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
