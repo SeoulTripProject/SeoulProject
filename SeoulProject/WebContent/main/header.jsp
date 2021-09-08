@@ -27,40 +27,27 @@
                                             <li><a href="about.html">Attractions</a></li>
                                             <li><a href="catagori.html">Nature SightSeeing</a></li>
                                             <li><a href="listing.jsp">Event</a>
-                                                <ul class="submenu1">
+                                                <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="listing_details.jsp">Listing details</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">Accomodation</a>
-                                                <ul class="submenu2">
+                                                <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="listing_details.jsp">Listing details</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="listing.jsp">Restaurants</a></li>
                                             <li><a href="#">Board</a>
-                                                <ul class="submenu2">
+                                                <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="listing_details.jsp">Listing details</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">My Page</a>
-                                                <ul class="submenu2">
+                                                <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="listing_details.jsp">Listing details</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="contact.html">Contact</a></li>
-                                            <li class="add-list"><a href="listing_details.jsp"><i class="ti-plus"></i> add Listing</a></li>
                                             <li class="login"><a href="#">
                                                 <i class="ti-user"></i> Sign in or Register</a>
                                             </li>
