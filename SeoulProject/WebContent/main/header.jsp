@@ -13,12 +13,12 @@
                     <div class="container-fluid">
                         <div class="row align-items-center">
                             <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="col-xl-2 col-lg-2 col-md-2">
                                 <div class="logo">
                                   <a href="index.html"><img src="../assets/img/logo/logo.png" alt=""></a>
                                 </div>
                             </div>
-                            <div class="col-xl-10 col-lg-10 col-md-8">
+                            <div class="col-xl-11 col-lg-11 col-md-8">
                                 <!-- Main-menu -->
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
@@ -48,7 +48,6 @@
                                                     <li><a href="blog.html">Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
                                             <li class="login"><a href="#">
                                                 <i class="ti-user"></i> Sign in or Register</a>
                                             </li>
