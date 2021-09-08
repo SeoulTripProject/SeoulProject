@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Directory HTML-5 Template </title>
+        <title>Seoul Trip </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
@@ -39,13 +39,13 @@
     </div>
     <!-- Preloader Start -->
     <header>
-      <jsp:include page="header.jsp"></jsp:include>
+      <%@ include file="../main/header.jsp" %>
     </header>
     <main>
-	  <jsp:include page="home.jsp"></jsp:include>
+	  <jsp:include page="${main_jsp }"></jsp:include>
     </main>
     <footer>
-      <jsp:include page="footer.jsp"></jsp:include>
+      <%@ include file="../main/footer.jsp" %>
     </footer>
     <!-- Scroll Up -->
     <div id="back-top" >

@@ -433,6 +433,5 @@
         </div>
         <!-- Blog Ara End -->
 
-    </main>
 </body>
 </html>
