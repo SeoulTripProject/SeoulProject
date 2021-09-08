@@ -24,11 +24,35 @@
                                     <nav>
                                         <ul id="navigation">                                                                                                                                     
                                             <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="catagori.html">Catagories</a></li>
-                                            <li><a href="listing.jsp">Listing</a></li>
-                                            <li><a href="#">Page</a>
-                                                <ul class="submenu">
+                                            <li><a href="about.html">Attractions</a></li>
+                                            <li><a href="catagori.html">Nature SightSeeing</a></li>
+                                            <li><a href="listing.jsp">Event</a>
+                                                <ul class="submenu1">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog_details.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="listing_details.jsp">Listing details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Accomodation</a>
+                                                <ul class="submenu2">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog_details.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="listing_details.jsp">Listing details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="listing.jsp">Restaurants</a></li>
+                                            <li><a href="#">Board</a>
+                                                <ul class="submenu2">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog_details.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="listing_details.jsp">Listing details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">My Page</a>
+                                                <ul class="submenu2">
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="blog_details.html">Blog Details</a></li>
                                                     <li><a href="elements.html">Element</a></li>
