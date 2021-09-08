@@ -5,6 +5,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="site.webmanifest">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/slicknav.css">
+<link rel="stylesheet" href="assets/css/flaticon.css">
+<link rel="stylesheet" href="assets/css/animate.min.css">
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="assets/css/themify-icons.css">
+<link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/nice-select.css">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <!-- Hero Start-->
@@ -36,7 +51,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location1.png" alt="">
+                                <img src="../assets/img/gallery/location1.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>New York</p>
@@ -47,7 +62,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location2.png" alt="">
+                                <img src="../assets/img/gallery/location2.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Paris</p>
@@ -58,7 +73,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location3.png" alt="">
+                                <img src="../assets/img/gallery/location3.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Rome</p>
@@ -69,7 +84,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location4.png" alt="">
+                                <img src="../assets/img/gallery/location4.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Italy</p>
@@ -80,7 +95,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location5.png" alt="">
+                                <img src="../assets/img/gallery/location5.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Nepal</p>
@@ -91,7 +106,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location6.png" alt="">
+                                <img src="../assets/img/gallery/location6.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>indonesia</p>
@@ -119,7 +134,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location1.png" alt="">
+                                <img src="../assets/img/gallery/location1.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>New York</p>
@@ -130,7 +145,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location2.png" alt="">
+                                <img src="../assets/img/gallery/location2.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Paris</p>
@@ -141,7 +156,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location3.png" alt="">
+                                <img src="../assets/img/gallery/location3.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Rome</p>
@@ -152,7 +167,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location4.png" alt="">
+                                <img src="../assets/img/gallery/location4.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Italy</p>
@@ -163,7 +178,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location5.png" alt="">
+                                <img src="../assets/img/gallery/location5.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>Nepal</p>
@@ -174,7 +189,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-location mb-30">
                             <div class="location-img">
-                                <img src="assets/img/gallery/location6.png" alt="">
+                                <img src="../assets/img/gallery/location6.png" alt="">
                             </div>
                             <div class="location-details">
                                 <p>indonesia</p>
