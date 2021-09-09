@@ -1,6 +1,7 @@
 package com.sist.dao;
 import java.util.*;
 import java.sql.*;
+import com.sist.vo.*;
 public class ExbitDAO {
 	private Connection conn;
 	private PreparedStatement ps;

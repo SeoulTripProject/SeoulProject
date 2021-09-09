@@ -8,7 +8,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.sist.dao.*;
-
+import com.sist.vo.*;
 import java.net.URLEncoder;
 import java.util.*;
 public class PracticeClass3 {
