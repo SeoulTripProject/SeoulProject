@@ -10,6 +10,8 @@ import org.jsoup.select.Elements;
 import com.sist.dao.NatureDAO;
 import com.sist.dao.NatureVO;
 
+//내부사이트로 이동해서 세부데이터 긁는게 안되는데... 도움좀 부탁드려요 ㅠㅠ
+
 public class NatureClass {
 	public static void main(String[] args) {
 		NatureClass mc = new NatureClass();
@@ -20,21 +22,19 @@ public class NatureClass {
 		NatureDAO dao = NatureDAO.newInstance();
 		try {
 
-			int page = 2;
-			//페이지 1~14
+			int page = 2; //14
 			for (int j = 1; j <= page; j++) {
 				String url = "https://korean.visitseoul.net/nature"+"?curPage=" + j;
 				Document doc = Jsoup.connect(url).get(); //페이지 소스
 				Elements elements = doc.select("li.item"); // 한 덩어리, size() : 8
 
-				// Elements introElements = doc.getElementsByAttributeValue("class", "small-text
-				// text-dot-d");
+				
 				// elements 크기는 8, 8개 데이터 추출하니까 반복문
 				for (int i = 0; i < elements.size(); i++) {
 					try {
-						String title = elements.get(i).select("span.title").text(); // title
+						String title = elements.get(i).select("span.title").text(); 
 						String intro = elements.get(i).getElementsByAttributeValue("class", "small-text text-dot-d")
-								.text(); // intro
+								.text();
 						String link = elements.get(i).select("a").attr("href");
 
 						String fullLink = "https://korean.visitseoul.net" + link;
